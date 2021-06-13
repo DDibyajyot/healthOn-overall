@@ -1,0 +1,226 @@
+var Name;
+var bps;
+var bpd;
+function getInput(){
+    Name = document.getElementById("userName").value;
+    bps = document.getElementById("userbps").value;
+    bpd = document.getElementById("userbpd").value;
+    // alert(input);
+
+    var result = document.getElementById('result');
+    result.textContent = "Name: " + Name  + " bps: " + bps + "bpd: " + bpd;
+
+    showResults();
+
+
+
+
+function bloodpressure(){
+    if (age<=10 && age>= 0){
+      if(bps == 105 && bpd == 70){
+        var print = document.getElementById('print');
+        print.textContent = "BP is normal. You can relax and lead a normal life."
+        }
+      elseif(bps > 105 && bpd > 70){
+        var print = document.getElementById('print');
+        print.textContent = "BP is above average. You could be bordering Hypertension."
+      }
+      elseif(bps > 125 && bpd > 90){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely above average. You are suffering Hypertension. Please look below for tips to help with Hypertension."
+      }
+      elseif(bps < 105 && bpd < 70){
+        var print = document.getElementById('print');
+        print.textContent = "BP is below average. You could be bordering Hypotension."
+      }
+      elseif(bps < 85 && bpd < 50){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely low. You are suffering from Hypotension. Please look below for tips to help with Hypotension."
+      }
+
+
+    elseif (age<=20 && age> 10){
+      if(bps == 120 && bpd == 80){
+        var print = document.getElementById('print');
+        print.textContent = "BP is normal. You can relax and lead a normal life."
+        }
+      elseif(bps > 120 && bpd > 80){
+        var print = document.getElementById('print');
+        print.textContent = "BP is above average. You could be bordering Hypertension."
+      }
+      elseif(bps > 145 && bpd > 100){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely above average. You are suffering Hypertension. Please look below for tips to help with Hypertension."
+      }
+      elseif(bps < 120 && bpd < 80){
+        var print = document.getElementById('print');
+        print.textContent = "BP is below average. You could be bordering Hypotension."
+      }
+      elseif(bps < 100 && bpd < 60){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely low. You are suffering from Hypotension. Please look below for tips to help with Hypotension."
+      }
+
+    elseif (age<=30 && age> 20){
+      if(bps == 120 && bpd == 80){
+        var print = document.getElementById('print');
+        print.textContent = "BP is normal. You can relax and lead a normal life."
+        }
+      elseif(bps > 120 && bpd > 80){
+        var print = document.getElementById('print');
+        print.textContent = "BP is above average. You could be bordering Hypertension."
+      }
+      elseif(bps > 140 && bpd > 100){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely above average. You are suffering Hypertension. Please look below for tips to help with Hypertension."
+      }
+      elseif(bps < 120 && bpd < 80){
+        var print = document.getElementById('print');
+        print.textContent = "BP is below average. You could be bordering Hypotension."
+      }
+      elseif(bps < 100 && bpd < 60){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely low. You are suffering from Hypotension. Please look below for tips to help with Hypotension."
+      }
+
+    elseif (age<=40 && age> 30){
+      if(bps == 123 && bpd == 82){
+        var print = document.getElementById('print');
+        print.textContent = "BP is normal. You can relax and lead a normal life."
+        }
+      elseif(bps > 123 && bpd > 82){
+        var print = document.getElementById('print');
+        print.textContent = "BP is above average. You could be bordering Hypertension."
+      }
+      elseif(bps > 143 && bpd > 102){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely above average. You are suffering Hypertension. Please look below for tips to help with Hypertension."
+      }
+      elseif(bps < 123 && bpd < 82){
+        var print = document.getElementById('print');
+        print.textContent = "BP is below average. You could be bordering Hypotension."
+      }
+      elseif(bps < 103 && bpd < 62){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely low. You are suffering from Hypotension. Please look below for tips to help with Hypotension."
+      }
+
+    elseif (age<=40 && age> 30){
+      if(bps == 123 && bpd == 82){
+        var print = document.getElementById('print');
+        print.textContent = "BP is normal. You can relax and lead a normal life."
+        }
+      elseif(bps > 123 && bpd > 82){
+        var print = document.getElementById('print');
+        print.textContent = "BP is above average. You could be bordering Hypertension."
+      }
+      elseif(bps > 143 && bpd > 102){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely above average. You are suffering Hypertension. Please look below for tips to help with Hypertension."
+      }
+      elseif(bps < 123 && bpd < 82){
+        var print = document.getElementById('print');
+        print.textContent = "BP is below average. You could be bordering Hypotension."
+      }
+      elseif(bps < 103 && bpd < 62){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely low. You are suffering from Hypotension. Please look below for tips to help with Hypotension."
+      }
+
+
+    elseif (age<=50 && age> 40){
+      if(bps == 125 && bpd == 84){
+        var print = document.getElementById('print');
+        print.textContent = "BP is normal. You can relax and lead a normal life."
+        }
+      elseif(bps > 125 && bpd > 84){
+        var print = document.getElementById('print');
+        print.textContent = "BP is above average. You could be bordering Hypertension."
+      }
+      elseif(bps > 145 && bpd > 104){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely above average. You are suffering Hypertension. Please look below for tips to help with Hypertension."
+      }
+      elseif(bps < 125 && bpd < 84){
+        var print = document.getElementById('print');
+        print.textContent = "BP is below average. You could be bordering Hypotension."
+      }
+      elseif(bps < 105 && bpd < 64){
+        var print = document.getElementById('print');
+        print.textContent = "BP is extremely low. You are suffering from Hypotension. Please look below for tips to help with Hypotension."
+      }
+
+
+
+    }
+function bloodsugar(){
+  if(sugar=="fasting"){
+    if(bs<=100 && bs>=80){
+      var print = document.getElementById('print');
+      print.textContent = "Blood Sugar is normal. You can relax and lead a normal life."
+      }
+    elseif(bs<=125 && bs>100){
+      var print = document.getElementById('print');
+      print.textContent = "Blood Sugar is higher than average. You are PreDiabetic, please adher to the tips given below to avoid Diabetes."
+      }
+    elseif(bs>125){
+      var print = document.getElementById('print');
+      print.textContent = "Blood Sugar is extremely high. You are Diabetic, please adher to the tips given below to help deal with Diabetes."
+      }
+    }
+
+  if(sugar=="ate"){
+    if(bs<=200 && bs>=170){
+      var print = document.getElementById('print');
+      print.textContent = "Blood Sugar is normal. You can relax and lead a normal life."
+      }
+    elseif(bs<=230 && bs>200){
+      var print = document.getElementById('print');
+      print.textContent = "Blood Sugar is higher than average. You are PreDiabetic, please adher to the tips given below to avoid Diabetes."
+      }
+    elseif(bs>230){
+      var print = document.getElementById('print');
+      print.textContent = "Blood Sugar is extremely high. You are Diabetic, please adher to the tips given below to help deal with Diabetes."
+      }
+    }
+
+  if(sugar=="later"){
+    if(bs<=140 && bs>=120){
+      var print = document.getElementById('print');
+      print.textContent = "Blood Sugar is normal. You can relax and lead a normal life."
+      }
+    elseif(bs<=200 && bs>140){
+      var print = document.getElementById('print');
+      print.textContent = "Blood Sugar is higher than average. You are PreDiabetic, please adher to the tips given below to avoid Diabetes."
+      }
+    elseif(bs>200){
+      var print = document.getElementById('print');
+      print.textContent = "Blood Sugar is extremely high. You are Diabetic, please adher to the tips given below to help deal with Diabetes."
+      }
+    }
+
+
+
+
+
+
+function bmi(){
+  if(bm<=18.5){
+    var print = document.getElementById('print');
+    print.textContent = "Body Mass Index is lower than average. Please use the guide given below to help with increase in BMI."
+    }
+  if(bm>18.5 && bm<=25){
+    var print = document.getElementById('print');
+    print.textContent = "Body Mass Index is average. You can relax and lead a normal life."
+    }
+  if(bm>25 && bm<=30){
+    var print = document.getElementById('print');
+    print.textContent = "Body Mass Index is overweight. You can use the guide for help in regulating BMI."
+    }
+  if(bm>30){
+    var print = document.getElementById('print');
+    print.textContent = "Body Mass Index is obese. You can use the guide for help in regulating BMI."
+    }
+
+  }
+}
